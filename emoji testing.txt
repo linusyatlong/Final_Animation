@@ -1,0 +1,37 @@
+Testing MU:
+<MO=MU, 0, 1><PM><MO=MU,1,1>
+
+Testing MT:
+<MO=MT, 0, 1><PM><MO=MT,1,1>
+
+Testing MD:
+<MO=MD, 0, 1><PM><MO=MD,1,1>
+
+Happy:
+<MO=HN,0.4,0.5><PM><MO=CH,1,1><PM><MO=EB,0.8,1><MO=HN,0.7,0.5><MO=MO,0.7,0.5><PM><MO=MO,0.3,1><PM><MO=MO,0.50.5><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+Sad:
+<MO=CH,0,2><PM><MO=EL,1,1><PM><MO=HN,0,1><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+Idle:
+<MO=AR,0.5,1><PM><MO=AR,0,1><MO=EL,0.5,1><MO=MO,0.5,1.5><MO=HN,0.25,1><MO=HT,0.3,0.5><PM><MO=HT,0.7,1><PM><MO=HT,0.5,0.5><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+Talking:
+<MO=AR,0.5,0.5><MO=CH,1,3><MO=EB,0.7,3><PM> I am talking <MO=MO,0.7,1><PM><MO=MO,0.2,1><PM><MO=MO,0.2,1><PM><MO=MO,0.8,1><PM><MO=MO,0.4,1><PM><MO=MO,0.8,1><PM><MO=AR,0><MO=CH,0.5>< MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0><PM><MO=AR,0><MO=CH,0.5, MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+Surprise:
+OOO my god
+<MO=AR, 0.8,0.2><MO=CH,0.3,0.2><MO=EB,1,0.5><MO=HN,0.8,0.5><MO=HT,0.3,1><PM><MO=HT,0.7,1><PM><MO=HT,0.5,1><PM><MO=AR,0><MO=CH,0.5, MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+
+Happy 2:
+Haaahahahaa<MO=AR,1,1><MO=CH,1,1><MO=EB,1,1><MO=EL,0,1><MO=HN,1,1><MO=MO,1,1><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+
+Shock:
+<MO=AR,1,1><PM><MO=CH,0.2,1><MO=EB,1,0.5><MO=HN,1,1><MO=HT,0.3,1><PM><MO=HT,0.7,1><PM><MO=AR,0><MO=CH,0.5>< MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+
+Shock 2 (Horror):
+<MO=MO,1,3><MO=AR,1,0.5><MO=CH,0,0.5><MO=EB,1,0.5><MO=HN,1,1><MO=HT,0.3,0.2><PM><MO=HT,0.7,0.4><PM><MO=HT,0.3,0.4><PM><MO=HT,0.7,0.4><PM><MO=HT,0.3,0.4><PM><MO=HT,0.4,0.2><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+
+Humorous:
+<MO=AR,1,0.5><PM><MO=AR,0,0.5><MO=EB,0.5,0.5><MO=EL,0.3,0.5><MO=HN,0.2,0.5><MO=HT,0.15,0.5><MO=MO,1,0.1><PM=2><MO=AR,0><MO=CH,0.5, MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+
+Suggestive:
+<MO=AR, 1 ,0.5><PM><MO=CH,1,0.5><MO=EB,1,0.5><MO=HT,0,0.5><PM><MO=AR,0><MO=CH,0.5>< MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
+Disappointed:
+<MO=AR,0.3,0.5><PM><MO=AR,0,0.5><MO=CH,0,0.5><MO=EL,1,0.5><MO=HN,0,2><PM><MO=HT,0,0.5><PM><MO=HT,1,1><PM><MO=HT,0.5,0.5><PM><MO=AR,0><MO=CH,0.5, MO=EB,0><MO=EL, 0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>
