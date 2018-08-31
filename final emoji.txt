@@ -1,0 +1,46 @@
+nc 192.168.1.1 8080
+
+000054{"cmd":"activity.recieved","data":{"output":"hi lam"}}
+
+000104{"cmd":"activity.recieved","data":{"output":"<MO=HN,0,1><PM><MO=HN,1,1><PM><MO=HN,0,1><PM><MO=HN,1,1>"}}
+//nod
+
+000160{"cmd":"activity.recieved","data":{"output":"<MO=HN,0.4,0.5><PM><MO=CH,1,1><PM><MO=EB,0.8,1><MO=HN,0.7,0.5><MO=MO,0.7,0.5><PM><MO=MO,0.3,1><PM><MO=MO,0.50.5>"}}
+//happy
+
+000089{"cmd":"activity.recieved","data":{"output":"<MO=CH,0,1><PM><MO=EL,1,1><PM><MO=HN,0,1>"}}
+//sad
+
+000169{"cmd":"activity.recieved","data":{"output":"<MO=AR,0.5,0.5><PM><MO=AR,0,2><MO=EL,0.5,1><MO=MO,0.5,2><MO=HN,0.25,1><MO=HT,0.3,0.5><PM><MO=HT,0.7,1><PM><MO=HT,0.5,0.5>"}}
+//idle
+
+000213{"cmd":"activity.recieved","data":{"output":"<MO=AR,0.5,0.5><MO=CH,1,3><MO=EB,0.7,3><PM>I am talking<MO=MO,0.7,0.5><PM><MO=MO,0.2,0.5><PM><MO=MO,0.2,0.5><PM><MO=MO,0.8,0.5><PM><MO=MO,0.4,0.5><PM><MO=MO,0.8,0.5>"}}
+//talking
+
+000236{"cmd":"activity.recieved","data":{"output":"Oh my God<MO=AR, 0.8,0.2><MO=CH,0.3,0.2><MO=EB,1,0.5><MO=HN,0.8,0.5><MO=HT,0.3,1><PM><MO=HT,0.7,1><PM><MO=HT,0.5,1><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>"}}
+//surprise
+
+000198{"cmd":"activity.recieved","data":{"output":"Haaahahahaa<MO=AR,1,1><MO=CH,1,1><MO=EB,1,1><MO=EL,0,1><MO=HN,1,1><MO=MO,1,1><PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>"}}
+//Happy 2
+
+000254{"cmd":"activity.recieved","data":{"output":"<MO=AR,1,0.5><MO=CH,0,0.5><MO=EB,0,0.5><MO=EL,1,0.5><MO=HN,1,0.5><PM><MO=HT,0,0.5><PM><MO=HT,1,1><PM><MO=HT,0,1><PM><MO=HT,1,1><PM><MO=HT,0,1><PM><MO=HT,1,1><PM><MO=HT,0,1><PM><MO=HT,1,1><PM><MO=HT,0.5,0.5>"}}
+//Shock 2 (Horror)
+
+000206{"cmd":"activity.recieved","data":{"output":"<MO=AR,1,0.5><PM><MO=CH,0.2,1><MO=EB,1,0.5><MO=HN,1,1><MO=HT,0.3,1><PM><MO=HT,0.7,1><PM><MO=AR,0><MO=CH,0.5>< MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>"}}
+//Shock
+
+000219{"cmd":"activity.recieved","data":{"output":"<MO=MO,1,3><MO=AR,1,0.5><MO=CH,0,0.5><MO=EB,1,0.5><MO=HN,1,1><MO=HT,0.3,0.2><PM><MO=HT,0.7,0.4><PM><MO=HT,0.3,0.4><PM><MO=HT,0.7,0.4><PM><MO=HT,0.3,0.4><PM><MO=HT,0.4,0.2>"}}
+//Humorous
+000231{"cmd":"activity.recieved","data":{"output":"<MO=AR,1,0.5><PM><MO=AR,0,0.5><MO=EB,0.5,0.5><MO=EL,0.3,0.5><MO=HN,0.2,0.5><MO=HT,0.15,0.5><MO=MO,1,0.1><PM=2><MO=AR,0><MO=CH,0.5><PM><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>"}}
+//Suggestive
+
+000168{"cmd":"activity.recieved","data":{"output":"<MO=AR,0.3,0.5><PM><MO=AR,0,0.5><MO=CH,0,0.5><MO=EL,1,0.5><MO=HN,0,2><PM><MO=HT,0,0.5><PM><MO=HT,1,1><PM><MO=HT,0.5,0.5>"}}
+//Disappointed
+
+000121{"cmd":"activity.recieved","data":{"output":"<PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>"}}
+//back to default
+//command char =48 
+//back to default command char =73
+
+
+{"cmd":"activity.recieved","data":{"output":"<PM><MO=AR,0><MO=CH,0.5><MO=EB,0><MO=EL,0><MO=HN,0.5><MO=HT,0.5><MO=MO,0>”}}

@@ -1,0 +1,48 @@
+Hi I want to have a Python script that can output blendshape animation as markup language
+
+
+In the maya scene, there will be a character model with has 7 blendshape
+
+AR=0(hand down), 1 (hand up)
+CH=0(mouth edges down), 0.5 (mouth edges default), 1 (mouth edge up)
+EB=0(eyebrow default), 1 (eyebrow up)
+EL=0(eye open), 1 (eye close)
+HN=0(head down), 0.5 (head default), 1(head up)
+HT=0(turn left), 0.5(turn default), 1(turn right)
+MO=0(no tongue), 1(tongue out) 
+
+AR=0, CH=0.5, EB=0, EL= 0, HN=0.5, HT=0.5, MO=0
+
+Our animator will key the blendshape according to Voice over.
+
+The Python script will read the key of each blendshape in the timeline, and output the animation as a new markup language to control hardware motors.
+
+
+
+<MO=MO,1> tongue move to position 1 immediately
+<MO=MO,1,0.3> tongue move to position with 0.3 seconds
+same as
+<MO=AR
+<MO=CH
+<MO=EB
+<MO=EL
+<MO=HN
+<MO=HT
+
+
+<PM> pause until motor reach target position
+<PM=0.3> after finished, wait another 0.3 second
+<PS> pause until script reach target position
+<PA> pause until all (motor+script) reach target position
+
+
+e.g.
+<MO=HT,0.4,0.2><PM><MO=HT,0.5,0.8><PM><MO=CH,0,0.5><MO=EB,1.0,0.3><PM><MO=EB,0,0.3><MO=CH,0.5,0.5><PM><MO=HT,0.4,0.2><PM>
+
+
+full example:
+
+<MO=HT,0.4,0.2><PM><MO=HT,0.5,0.8><PM><MO=CH,0,0.5><MO=EB,1.0,0.3><PM><MO=EB,0,0.3><MO=CH,0.5,0.5><PM><MO=HT,0.4,0.2><PM><MO=HT,0.5,0.8><PM><MO=CH,0,0.5><MO=EB,1.0,0.3><PM><MO=EB,0,0.3><MO=CH,0.5,0.5><PM><MO=HT,0,0.1><PA=0.8><MO=HT,1,0.2><PA=0.5><MO=HT,0.5,0.2><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=AR,1,0.5><PM><MO=AR,0,0.5><PM><MO=HN,1,0.2><PM><MO=HN,0,0.2><PM><MO=HN,1,0.2><PM><MO=HN,0,0.2><PM><MO=HN,1,0.2><MO=AR,1,0.5><PM><MO=AR,0,0.5><PM><MO=HT,0.7,0.2><PM><MO=HT,0.3,0.2><PM><MO=HT,0.7,0.2><PM><MO=HT,0.3,0.2><PM><MO=HT,0.7,0.2><PM><MO=HT,0.5,0.2><MO=AR,1,0.5><PM><MO=AR,0,0.5><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=CH,1,0.1><MO=EB,0,0.1><PM><MO=HT,0,0.1><PA=0.4><MO=HN,1,0.2><MO=HT,1,0.2><PA=0.7><MO=HT,0.5,0.1><MO=CH,0,0.1><MO=EB,1,0.1><PM><MO=AR,1,0.1><MO=MO,1.0,0.3><PA=0.5><MO=AR,0,2><MO=EL,1,2><MO=CH,0.5,2><MO=MO,0,2><MO=EB,0,2><MO=HN,0.3,2><PA=1><MO=HN,0.3,0.3><MO=EL,0,0.3><MO=CH,0,0.3><PA=2><MO=EL,0.1,0.3><MO=CH,0.5,0.3><PA>
+
+
+
